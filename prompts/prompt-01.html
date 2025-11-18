@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELE B2 - Tarea 1: Valoración de propuestas</title>
+    
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <header class="top-bar">
+        <a href="../index.html" class="btn-back">← Volver al Índice</a>
+        <h1>Práctica Oral: Nivel B2</h1>
+    </header>
+
+    <main class="exam-container">
+        
+        <section class="prompt-content">
+            <article class="task-description">
+                <h2>Tarea 1: Valorar propuestas y conversar</h2>
+                <p class="instructions">
+                    <strong>Instrucción:</strong> Usted va a mantener una conversación sobre una situación imaginaria. 
+                    A continuación se le presentan varias opciones para solucionar un problema. 
+                    Debe valorar las ventajas y desventajas de cada una.
+                </p>
+                
+                <div class="scenario-box">
+                    <h3>Tema: Reducción de la contaminación urbana</h3>
+                    <p>El ayuntamiento propone las siguientes medidas. Analice los pros y contras:</p>
+                    <ul id="prompt-points">
+                        <li>Prohibir el tráfico en el centro.</li>
+                        <li>Aumentar el precio del aparcamiento.</li>
+                        <li>Fomentar el uso de bicicletas eléctricas.</li>
+                        <li>Mejorar la frecuencia de autobuses.</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+        <aside class="exam-tools">
+            
+            <div class="timer-widget">
+                <h3>Tiempo Restante</h3>
+                <div id="timer-display">00:00</div>
+                <div class="timer-controls">
+                    <button id="btn-start" onclick="startTimer(240)">Iniciar (4 min)</button>
+                    <button id="btn-stop">Pausa</button>
+                </div>
+            </div>
+
+            <div class="helper-box">
+                <h3>Vocabulario Sugerido</h3>
+                <ul id="vocab-list">
+                    </ul>
+            </div>
+
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Simulador DELE - Proyecto Open Source</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    
+    <script src="../js/prompts/prompt-01.js"></script>
+
+</body>
+</html>
